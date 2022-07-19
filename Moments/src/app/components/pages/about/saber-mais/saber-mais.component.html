@@ -1,19 +1,22 @@
 
 
-    <section class="container">
-
-        <div class="leftside">
-            <div class="info">
-                <div class="profissao">FullStack Developer</div>
-                <div class="nome"> I'am Will Moraes</div>
-                <div class="buttons"> 
-                     <a href="../pages/form.html">Saiba Mais</a> 
-                     <a href="../pages/contatos.html" class="light">Contatos</a>   
-                </div>
-            </div>
+    
+        <div class="slider-form">
+        <div>
+            <h3>Papeis de Parede</h3>
         </div>
-        <div class="rightside"></div>
-
-    </section>
+<div>
+        <ng-image-slider class="slider" [images]="imageObject" #nav [infinite]="true" [autoSlide]="1"
+		[imageSize]="{width: '30%', height: 150}" slideImage="1">></ng-image-slider>
+        
+</div>
+<div>
+    <h3>Videos</h3>
+</div>
+        <ng-image-slider class="slider" [images]="videosObject" #nav [infinite]="true" [autoSlide]="1"
+		[imageSize]="{width: '30%', height: 150}" slideImage="1" ></ng-image-slider>
+        
+    </div>
+    
 
 
