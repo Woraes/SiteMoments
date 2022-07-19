@@ -3,11 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/pages/about/about.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
+import { SaberMaisComponent } from './components/pages/about/saber-mais/saber-mais.component';
+import { ContatoComponent } from './components/pages/about/contato/contato.component';
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:'about', component: AboutComponent},
   {path:'moments/new', component: NewMomentComponent},
+  {path:'sabermais', component: SaberMaisComponent},
+  {path:'contato', component: ContatoComponent},
 ];
 
 @NgModule({
