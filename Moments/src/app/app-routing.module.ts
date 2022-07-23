@@ -6,6 +6,8 @@ import { NewMomentComponent } from './components/pages/new-moment/new-moment.com
 import { SaberMaisComponent } from './components/pages/about/saber-mais/saber-mais.component';
 import { ContatoComponent } from './components/pages/about/contato/contato.component';
 
+
+
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:'about', component: AboutComponent},
