@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http'
+
 import { NgImageSliderModule } from 'ng-image-slider';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 
 
@@ -18,6 +21,7 @@ import { MomentFormComponent } from './components/moment-form/moment-form.compon
 import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
 import { SaberMaisComponent } from './components/pages/about/saber-mais/saber-mais.component';
 import { ContatoComponent } from './components/pages/about/contato/contato.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
@@ -30,12 +34,14 @@ import { ContatoComponent } from './components/pages/about/contato/contato.compo
     NewMomentComponent,
     SaberMaisComponent,
     ContatoComponent,
+    ItemDetailComponent,
    
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgImageSliderModule,
     FormsModule,
     ReactiveFormsModule
