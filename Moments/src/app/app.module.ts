@@ -24,6 +24,7 @@ import { ContatoComponent } from './components/pages/about/contato/contato.compo
 import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 import { MessagesComponent } from './components/messages/messages.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MomentComponent } from './componets/pages/moment/moment.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ContatoComponent,
     ItemDetailComponent,
     MessagesComponent,
+    MomentComponent,
    
   
   ],

@@ -5,6 +5,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
 import { SaberMaisComponent } from './components/pages/about/saber-mais/saber-mais.component';
 import { ContatoComponent } from './components/pages/about/contato/contato.component';
+import { MomentComponent } from './components/pages/moment/moment.component';
 
 
 
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'moments/new', component: NewMomentComponent},
   {path:'sabermais', component: SaberMaisComponent},
   {path:'contato', component: ContatoComponent},
+  {path:'moments/:id', component: MomentComponent},
 ];
 
 @NgModule({
