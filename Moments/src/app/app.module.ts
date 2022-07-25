@@ -22,6 +22,8 @@ import { NewMomentComponent } from './components/pages/new-moment/new-moment.com
 import { SaberMaisComponent } from './components/pages/about/saber-mais/saber-mais.component';
 import { ContatoComponent } from './components/pages/about/contato/contato.component';
 import { ItemDetailComponent } from './components/item-detail/item-detail.component';
+import { MessagesComponent } from './components/messages/messages.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,7 @@ import { ItemDetailComponent } from './components/item-detail/item-detail.compon
     SaberMaisComponent,
     ContatoComponent,
     ItemDetailComponent,
+    MessagesComponent,
    
   
   ],
@@ -44,7 +47,8 @@ import { ItemDetailComponent } from './components/item-detail/item-detail.compon
     HttpClientModule,
     NgImageSliderModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
