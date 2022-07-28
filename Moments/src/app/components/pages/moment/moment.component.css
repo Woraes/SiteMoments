@@ -1,0 +1,46 @@
+.moment{
+    display: flex;
+
+    flex-direction: column;/*pq quero um item abaixo do outro*/
+
+    justify-content: center;/*para alinhar na horizontal*/
+
+    align-items: center;/*para alinhar na vertical*/
+
+    text-align: center; /*alinhar todo texto no centro*/
+
+    width: 60%; /*limitar a largura do conteiner em 60%*/
+
+    margin: 0 auto;/* pra centralizar toda essa estrutura*/
+     
+}
+h1{
+    margin-bottom:  1em;
+}
+img{
+    max-width: 500px;/*largura maxima de 500px*/
+    margin-bottom: 0 auto 1em;
+    border-radius: 8%;
+}
+.about-moment, .actions {
+
+
+border-bottom: 2px solid rgb(0, 0, 0);/* faz uma barra de divisorio na horizontal*/
+padding: 1.2em;
+width: 100%;
+}
+
+.actions{
+    background-color: #eee;
+}
+.comments{
+    margin-bottom: 1em; /*afasta do debaixo*/
+    padding: 1.5em 0; /* afasta em todos lados*/
+
+}
+.about-moment h3,
+.actions h3,
+.comments{
+    margin-bottom: 1em;
+
+}
